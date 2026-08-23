@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.arvio-stream"
+       name="Arvio Stream"
+       version="1.5.3"
+       provider-name="Arvio">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="inputstream.adaptive" optional="true"/>
+    <import addon="script.module.pycryptodome" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Stremio addons, Xtream IPTV and Telegram streams for Kodi</summary>
+    <summary lang="pt_BR">Addons do Stremio, IPTV Xtream e streams do Telegram para o Kodi</summary>
+    <description lang="en_GB">Arvio Stream brings the ARVIO experience to Kodi: install Stremio-style addons, add Xtream IPTV accounts, and connect your Telegram account to stream video files from your chats. Add everything fast using QR codes scanned from your phone.</description>
+    <description lang="pt_BR">Arvio Stream leva a experiência ARVIO para o Kodi: instale addons do Stremio, adicione contas Xtream de IPTV e conecte sua conta do Telegram para assistir vídeos dos seus chats. Adicione tudo rapidamente usando QR codes escaneados do celular.</description>
+    <disclaimer lang="en_GB">You may only use this addon with content you have the legal right to access.</disclaimer>
+    <disclaimer lang="pt_BR">Use este addon somente com conteúdo ao qual você tenha direito legal de acesso.</disclaimer>
+    <platform>all</platform>
+    <license>Apache-2.0</license>
+    <language>en pt-BR</language>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+    </assets>
+    <news>1.4.9 - Telegram disk-backed adaptive spool: safe bitrate detection, independent progressive pre-download, Android/low-resource profile, protected free-space reserve, transactional STOP cleanup, and conservative single-sender integrity path.</news>
+  </extension>
+</addon>
