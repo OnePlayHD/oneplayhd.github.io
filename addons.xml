@@ -459,6 +459,25 @@ v1.0.0
       </assets>
     </extension>
   </addon>
+  <addon id="plugin.video.ibo.oneplay" name="ONEPLAY IBO" version="2.3.0" provider-name="OnePlay">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="pt_BR">ONEPLAY IBO para Kodi integrado ao painel IBO</summary>
+      <description lang="pt_BR">Cliente ONEPLAY IBO para Kodi 21, integrado ao contrato atual do painel IBO.</description>
+      <platform>all</platform>
+      <license>proprietary</license>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+      </assets>
+    </extension>
+  </addon>
   <addon id="plugin.video.iptvpremium.matrix" name="[B]IPTV PREMIUM[/B]" version="1.0.1.matrix.1" provider-name="Equipe OnePlay">
     <requires>
       <import addon="xbmc.python" version="3.0.0"/>
