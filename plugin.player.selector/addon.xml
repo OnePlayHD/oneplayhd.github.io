@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.player.selector" name="Player Selector" version="1.0.0" provider-name="Joel">
+<addon id="plugin.player.selector" name="Player Selector" version="1.0.1" provider-name="Joel">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
