@@ -160,6 +160,24 @@ v1.0.0
 	</news>
     </extension>
   </addon>
+  <addon id="plugin.player.selector" name="Player Selector" version="1.0.0" provider-name="Joel">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+      <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="pt_BR">Selecionar player para reprodução</summary>
+      <description lang="pt_BR">Permite alternar entre o player padrão do Kodi e players externos (MX Player, Web Video Cast) no Android.</description>
+      <platform>all</platform>
+      <language>pt_BR</language>
+      <website>https://github.com/skyrisk/brazucaplay</website>
+      <assets>
+        <icon>icon.png</icon>
+      </assets>
+    </extension>
+  </addon>
   <addon id="plugin.program.kuswizard" name="[COLORdeepskyblue]K.U.S[/COLOR] Wizard" version="2025.04" provider-name="SGK">
     <requires>
       <import addon="xbmc.python" version="3.0.0"/>
