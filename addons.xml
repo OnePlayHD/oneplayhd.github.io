@@ -477,7 +477,7 @@ v1.0.0
       </assets>
     </extension>
   </addon>
-  <addon id="plugin.video.ibo.oneplay" name="ONEPLAY IBO" version="2.3.3" provider-name="OnePlay">
+  <addon id="plugin.video.ibo.oneplay" name="ONEPLAY IBO" version="2.3.4" provider-name="OnePlay">
     <requires>
       <import addon="xbmc.python" version="3.0.0"/>
     </requires>
